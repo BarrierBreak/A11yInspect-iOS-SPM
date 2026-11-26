@@ -16,14 +16,14 @@ In Xcode: **File > Add Package Dependencies…** and enter:
 
     https://github.com/BarrierBreak/A11yInspect-iOS-SPM
 
-Pick version `1.1.1` or later, then add **A11yInspect_Accessibility_Framework** to your app target and/or
+Pick version `1.2.0` or later, then add **A11yInspect_Accessibility_Framework** to your app target and/or
 **A11yInspectTestCases** to your test target.
 
 For Swift packages:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/BarrierBreak/A11yInspect-iOS-SPM", from: "1.1.1")
+    .package(url: "https://github.com/BarrierBreak/A11yInspect-iOS-SPM", from: "1.2.0")
 ],
 targets: [
     .target(
