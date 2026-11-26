@@ -19,13 +19,13 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "A11yInspect_Accessibility_Framework",
-            url: "https://github.com/BarrierBreak/A11yInspect-iOS-SPM/releases/download/1.2.0/A11yInspect_Accessibility_Framework.xcframework.zip",
-            checksum: "5f7a5275f357087cc574731eddb7e20e9078b74488a9ab7c112ab14b84464128"
+            url: "https://github.com/BarrierBreak/A11yInspect-iOS-SPM/releases/download/1.2.1/A11yInspect_Accessibility_Framework.xcframework.zip",
+            checksum: "034067fe02b7d98f8bbaae639c6ec5db7b4811359243c1c2f3ee87be03e0665e"
         ),
         .binaryTarget(
             name: "A11yInspectTestCases",
-            url: "https://github.com/BarrierBreak/A11yInspect-iOS-SPM/releases/download/1.2.0/A11yInspectTestCases.xcframework.zip",
-            checksum: "d5faa2c35faf7d72bbe1f4ab050d8f7af17f51e118ff1eb7d9db37d42a006747"
+            url: "https://github.com/BarrierBreak/A11yInspect-iOS-SPM/releases/download/1.2.1/A11yInspectTestCases.xcframework.zip",
+            checksum: "cc107c623aaecb5b9cb1618cb4f994ad934ca699a2f0a2823d399d319835e9bc"
         )
     ]
 )
